@@ -1,0 +1,52 @@
+/* style */
+:root{
+
+    --c--:#A1FFCE;
+    --b--:#FAFFD1;
+}
+body{
+    background: linear-gradient(to right , var(--b--),var(--c--));
+}
+
+.b1{
+    border: 3px solid gray;
+    position: fixed;
+    width: 35vh;
+    height: 20vh;
+    top: 70%;
+    left: 70%;
+    font-size: 10vh;
+    color: gray;
+}
+
+.b2{
+    border: 3px solid gray;
+    position: fixed;
+    width: 35vh;
+    height: 20vh;
+    top: 70%;
+    
+    font-size: 10vh;
+    color: gray;
+}
+
+.dirt{
+    width: 40vh;
+    height: 10vh;
+    background: #360c0c;
+    border-radius: 10vh;
+    left: 37%;
+    position: absolute;
+    top: 55%;
+
+}
+
+.plant{
+    font-size: 24vh;
+    position: absolute;
+    left: 42%;
+    top: 32%;
+    color: #1b741b;
+    display: none;
+
+}
